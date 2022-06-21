@@ -1,0 +1,494 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Tablet Layout: 768px.*/
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .top-bar-area {
+        text-align: center;
+     }
+
+     .top-bar-area .topbar-social .text-right {
+        text-align: center !important;
+        float: none;
+        margin-top: 15px;
+    }
+
+     .about-area .thumb {
+         margin-top: 45px;
+         padding-left: 15px;
+    }
+     .about-area.reverse .thumb {
+         margin-bottom: 30px;
+         margin-top: 0;
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .ogp-area .container-fluid .og-item {
+         display: block;
+         float: left;
+         width: 100%;
+    }
+     .ogp-area .container-fluid .og-item.bg-cover {
+         min-height: 400px;
+    }
+     .carousel.transparent .carousel-inner .item {
+         padding-top: 60px;
+    }
+     .process-items {
+         margin-top: 50px;
+         padding-left: 15px;
+    }
+     .we-do .info {
+         padding: 80px 15px;
+    }
+     .we-do .bg-cover {
+         min-height: 250px;
+         display: none;
+    }
+     .portfolio-area .portfolio-items .pf-item {
+         width: 50%;
+    }
+     .our-goal .goal-info {
+         text-align: center;
+    }
+     .contact-form-area .contact-form, 
+     .contact-form-area .maps {
+         display: block;
+         float: left;
+         width: 100%;
+         position: inherit;
+    }
+     .contact-form-area .contact-form {
+         margin-bottom: 30px;
+         padding-right: 15px;
+    }
+     .contact-form-area .contact-form .contact-form {
+         margin-bottom: 5px;
+         padding-right: 0;
+    }
+     #google-maps iframe {
+         position: inherit;
+         height: 375px;
+    }
+     .team-members-area .item {
+         margin-bottom: 30px;
+    }
+     .team-members-area .item:last-child {
+         margin-bottom: 0;
+    }
+     .our-goal .goal-achive {
+         margin-top: 50px;
+    }
+     .subscribe-box.bg-gray {
+         text-align: center;
+    }
+     .subscribe-form {
+         margin-top: 30px;
+    }
+     .services-details .item .thumb, 
+     .services-details .item .info {
+         display: block;
+         float: left;
+         vertical-align: middle;
+         width: 100%;
+         text-align: center;
+    }
+     .services-details .item .thumb {
+         min-height: 350px;
+    }
+     .services-details .services-det-items .owl-dots {
+         bottom: 50px;
+         left: inherit;
+         position: inherit;
+         width: 100%;
+    }
+     .creative-items .cell-item {
+         display: block;
+         padding: 0;
+         vertical-align: middle;
+         width: 100%;
+    }
+     .our-mission .thumb {
+         margin-top: 30px;
+         padding-left: 15px;
+    }
+     .blog-area.full-blog .blog-items .info {
+         background: #ffffff none repeat scroll 0 0;
+         padding: 30px 0;
+    }
+     .blog-area.full-blog .blog-items .item-box {
+         margin-bottom: 0;
+    }
+     .blog-area.full-blog .sidebar {
+         padding-left: 15px;
+         margin-top: 50px;
+    }
+     .blog-area.full-blog.left-sidebar .sidebar {
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .blog-area .item-box {
+         margin-bottom: 30px;
+    }
+     .blog-area .item-box:last-child {
+         margin: 0;
+    }
+     .contact-comments {
+         margin-bottom: 50px;
+    }
+     .blog-area.full-blog.single-blog .blog-items .info {
+         padding-bottom: 15px;
+    }
+     footer .item {
+         margin-bottom: 50px;
+    }
+     footer .item:last-child {
+         margin: 0;
+    }
+     .footer-bottom, .footer-bottom .text-right {
+         text-align: center !important;
+    }
+
+    .footer-bottom .text-right {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+ @media only screen and (max-width: 767px) {
+    /* Heading */
+     h1 {
+         font-size: 30px;
+    }
+     h2 {
+         font-size: 26px;
+    }
+     h3 {
+         font-size: 20px;
+    }
+     h4 {
+         font-size: 18px;
+    }
+     h5 {
+         font-size: 16px;
+    }
+     h6 {
+         font-size: 14px;
+    }
+
+    .bg-fixed {
+        background-size: cover !important;
+        background-attachment: inherit !important;
+        background-position: center !important;
+    }
+
+     .default-padding {
+         padding-top: 50px;
+         padding-bottom: 50px;
+    }
+     .banner-area .item h1 {
+         font-size: 30px;
+    }
+
+    .banner-area .carousel-item h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .banner-area.top-pad-90 .carousel-item {
+        padding-top: 60px;
+    }
+
+     .banner-area.text-large h1 {
+        font-size: 36px;
+        line-height: 1.2; 
+     }
+
+     .banner-area.text-medium h1 {
+        font-size: 36px;
+        line-height: 1.2; 
+     }
+
+     .banner-area p {
+        padding: 0 !important;
+     }
+     .top-bar-area {
+        display: none;
+     }
+     .services-items {
+         text-align: center;
+    }
+     .default-padding.bottom-less {
+         padding-top: 50px;
+         padding-bottom: 20px;
+    }
+     .carousel.transparent .carousel-inner .item {
+         padding-top: 60px;
+    }
+     .services-area .site-heading {
+         margin-bottom: 30px;
+    }
+     .services-area .site-heading p {
+         margin-bottom: 0;
+    }
+     .services-area .equal-height::after {
+         display: none;
+    }
+     .services-area .equal-height::before {
+         left: 5%;
+         width: 90%;
+    }
+     .site-heading {
+         margin-bottom: 30px;
+    }
+     .services-items .equal-height:last-child {
+         padding-bottom: 0;
+    }
+     .services-items .equal-height:last-child p {
+         margin: 0;
+    }
+     .about-area .thumb {
+         margin-top: 45px;
+         padding-left: 15px;
+    }
+     .about-area.reverse .thumb {
+         margin-bottom: 30px;
+         margin-top: 0;
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .ogp-area .container-fluid .og-item {
+         display: block;
+         float: left;
+         width: 100%;
+    }
+     .ogp-area .container-fluid .og-item.bg-cover {
+         min-height: 250px;
+    }
+     .ogp-area .container-fluid .content {
+         background: #212121 none repeat scroll 0 0;
+         padding: 50px 15px;
+    }
+     .process-items {
+         margin-top: 30px;
+         padding-left: 15px;
+    }
+     .padding-xl {
+         padding-bottom: 50px;
+         padding-top: 50px;
+    }
+     .we-do .info {
+         padding: 50px 15px;
+    }
+     .we-do .bg-cover {
+         min-height: 250px;
+         display: none;
+    }
+     .goal-info {
+         text-align: center;
+    }
+     .our-goal .goal-achive {
+         margin-top: 20px;
+    }
+     .goal-achive .item:last-child {
+         padding-bottom: 0;
+    }
+     .subscribe-box.bg-gray {
+         text-align: center;
+    }
+     .subscribe-form {
+         margin-top: 30px;
+    }
+     .our-mission .mission-info .nav.nav-tabs li a, 
+     .our-mission .mission-info .nav.nav-tabs li a:hover {
+         font-size: 12px;
+         padding: 10px;
+    }
+     .our-mission .thumb {
+         margin-top: 30px;
+         padding-left: 15px;
+    }
+     .services-details .item .thumb, .services-details .item .info {
+         display: block;
+         float: left;
+         vertical-align: middle;
+         width: 100%;
+         text-align: center;
+    }
+     .services-details .item .thumb {
+         min-height: 300px;
+    }
+     .services-details .item .info {
+         padding: 50px 15px;
+    }
+     .services-details .item .info p {
+         margin: 10px;
+    }
+     .services-details .services-det-items .owl-dots {
+         bottom: 30px;
+         left: 0;
+         margin: 0;
+         position: inherit;
+         text-align: center;
+         width: 100%;
+    }
+     .our-goal .goal-info {
+         text-align: center;
+    }
+     .contact-form-area .contact-form, 
+     .contact-form-area .maps {
+         display: block;
+         float: left;
+         width: 100%;
+    }
+     .contact-form-area .contact-form {
+         margin-bottom: 30px;
+         padding-right: 15px;
+    }
+     .contact-form-area .contact-form .contact-form {
+         margin-bottom: 5px;
+         padding-right: 0;
+    }
+     .portfolio-area .portfolio-items .pf-item {
+         width: 100%;
+    }
+     .portfolio-area .mix-item-menu button {
+         padding: 3px 15px;
+    }
+     #google-maps iframe {
+         position: inherit;
+         min-height: 300px;
+    }
+     .team-members-area .item {
+         margin-bottom: 30px;
+    }
+     .team-members-area .item:last-child {
+         margin-bottom: 0;
+    }
+     .creative-items .cell-item {
+         display: block;
+         padding: 0;
+         vertical-align: middle;
+         width: 100%;
+    }
+     .our-mission .mission-info li {
+         display: block;
+         float: none;
+    }
+     .our-mission .mission-info .nav.nav-tabs li a, 
+     .our-mission .mission-info .nav.nav-tabs li a:hover {
+         display: inline-block;
+         font-size: 12px;
+         padding: 5px 10px;
+         margin: 0;
+    }
+     .our-mission .mission-info .nav.nav-tabs {
+         padding-bottom: 20px;
+    }
+     .our-mission .mission-info .nav.nav-tabs li a.active, 
+     .our-mission .mission-info .nav.nav-tabs li a:hover {
+         color: #e22a31;
+    }
+     .our-mission .mission-info .nav.nav-tabs li a.active::after {
+         display: none;
+    }
+     .tab-content {
+         text-align: center;
+    }
+     .error-page-area h1 {
+      font-size: 100px;
+      line-height: 80px;
+    }
+     .error-page-area h2 {
+         font-size: 30px;
+    }
+     .blog-area.full-blog .blog-items .info {
+         background: #ffffff none repeat scroll 0 0;
+         padding: 30px 0;
+    }
+     .blog-area.full-blog.single-blog .blog-items .info {
+         padding-bottom: 15px;
+    }
+     .blog-area.full-blog .blog-items .item-box {
+         margin-bottom: 0;
+    }
+     .blog-area.full-blog .sidebar {
+         padding-left: 15px;
+         margin-top: 50px;
+    }
+     .blog-area.full-blog.left-sidebar .sidebar {
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .blog-area .item-box {
+         margin-bottom: 30px;
+    }
+     .blog-area .item-box:last-child {
+         margin: 0;
+    }
+     .contact-comments {
+         margin-bottom: 50px;
+    }
+     .comments-list .commen-item.reply {
+         padding-left: 0;
+    }
+     .author-bio .avatar {
+         display: block;
+         margin-bottom: 15px;
+         vertical-align: top;
+         width: auto;
+    }
+     .author-bio .content {
+         display: block;
+         padding: 0;
+         width: 100%;
+    }
+     .subscribe-box {
+         padding: 50px 15px;
+    }
+     footer .item {
+         margin-bottom: 50px;
+    }
+     footer .item:last-child {
+         margin: 0;
+    }
+     .footer-bottom, .footer-bottom .text-right {
+            text-align: center !important;
+            margin-top: 10px;
+        }
+     .footer-bottom {
+         margin-top: 35px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .portfolio-area .portfolio-items .pf-item {
+         width: 50%;
+    }
+     .our-mission .mission-info .nav.nav-tabs li.active a::after {
+         display: block;
+    }
+     .our-mission .mission-info li {
+         display: inline-block;
+         float: none;
+    }
+     .our-mission .mission-info .nav.nav-tabs li a, 
+     .our-mission .mission-info .nav.nav-tabs li a:hover {
+         display: inline-block;
+         font-size: 12px;
+         padding: 10px;
+         margin: 0;
+    }
+     .our-mission .mission-info .nav.nav-tabs {
+         padding-bottom: 0;
+    }
+     .our-mission .mission-info .nav.nav-tabs li.active a, 
+     .our-mission .mission-info .nav.nav-tabs li a:hover {
+         color: #232323;
+    }
+     .our-mission .mission-info .nav.nav-tabs li.active a::after {
+         display: block;
+    }
+}
